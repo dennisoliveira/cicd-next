@@ -36,6 +36,7 @@ jobs:
         run: npm run build
 
       - name: Run tests
+        if: ${{ false }} # Remover quando testes forem adicionados
         run: npm test
 
   cd:
